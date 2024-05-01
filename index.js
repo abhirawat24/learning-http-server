@@ -20,4 +20,5 @@ app.get('/jkl', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Your port request ${port}`);
+    console.log('This port is where your request goes ${port}');
 });
