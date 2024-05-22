@@ -13,6 +13,7 @@ app.get('/abc', (req, res) => {
 app.get('/def', (req, res) => {
     res.send('Hello page 2');
 });
+//The request below leads to the port https://....../ghi
 app.get('/ghi', (req, res) => {
     res.send('Hello page 3');
 });
