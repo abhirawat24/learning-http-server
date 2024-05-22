@@ -4,7 +4,8 @@ const bodyParser = require("body-parser");
 
 const app = express();
 const port = 3000;
-//different ports lead to different pages
+//Different ports lead to different pages
+//The below request leads to the port https://...../abc
 app.get('/abc', (req, res) => {
     res.send('Hello page 1');
 });
