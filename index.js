@@ -9,7 +9,7 @@ const port = 3000;
 app.get('/abc', (req, res) => {
     res.send('Hello page 1');
 });
-
+//The request below leads to the port https://...../def
 app.get('/def', (req, res) => {
     res.send('Hello page 2');
 });
