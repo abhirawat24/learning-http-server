@@ -21,7 +21,7 @@ app.get('/ghi', (req, res) => {
 app.get('/jkl', (req, res) => {
     res.send('Hello page 4');
 });
-
+//when the request is sent a response is given in return
 app.listen(port, () => {
     console.log(`Your port request ${port}`);
     console.log('This port is where your request goes ${port}');
